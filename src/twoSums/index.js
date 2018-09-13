@@ -12,8 +12,8 @@ const twoSums = (arr, base) => {
   
    for (var i = 0; i < arr.length; i++){
 	for (var q = 0; q < arr.length; q++) {
-	if (arr[i]+arr[q]==base) return [arr[i], arr[q]];
-   
+	if (arr[i]+arr[q]==base) return [arr[i], arr[q]];  
+   }
    }
 };
 
